@@ -4,7 +4,7 @@
   <img src="images/starlit-jellyfish-logo.jpg" width="400" alt="AI-generated image of a jellyfish floating through space, with stars in the background.">
 </p>
 
-**Starlit Jellyfish** is a verifiable map. Unlike a traditional transparency log, it allows clients to look up entries by label (e.g. a domain name, software package, etc) and verify all entries for that label, without having to download the entire log. Clients can also receive a succinct proof of the most recent, unrevoked entry for a given label. This is similar to a Key Transparency log, but without KTs strong privacy requirements, enabling a much simpler and more efficient design.
+**[Starlit Jellyfish](SPEC.md)** is a verifiable map. Unlike a traditional transparency log, it allows clients to look up entries by label (e.g. a domain name, software package, etc) and verify all entries for that label, without having to download the entire log. Clients can also receive a succinct proof of the most recent, unrevoked entry for a given label. This is similar to a Key Transparency log, but without KTs strong privacy requirements, enabling a much simpler and more efficient design.
 
 Verifiable maps are a useful primitive for systems which want to provide a transparent view of both issuance and revocation, for example if a software package is known to have vulnerabilities, or a certificate has been compromised. They also offer significant bandwidth savings over traditional logs when clients are interested in only a small subset of entries, replacing an O(N) download with an O(log N) proof.
 
